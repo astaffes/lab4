@@ -1,0 +1,5 @@
+print("Введите 4 числа: ")
+a, b, c, d = input().split()
+a = int(a) + int(b)
+c = int(c) + int(d)
+print("Деление сумм: %.2f" % (a / c))
